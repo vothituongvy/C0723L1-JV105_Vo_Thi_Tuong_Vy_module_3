@@ -1,0 +1,84 @@
+header {
+    font-family: "Open Sans";
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: gray;
+    border: 1px solid #CDCDCD;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}
+li:hover {
+    color: white;
+    background-color: #080808;
+
+}
+li {
+    /*
+            cac phan tu deu nam ngang
+    */
+    display:flex;
+    float: left;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 900px;
+    text-align: right;
+}
+
+.body_left {
+    background: #CDCDCD;
+    width: 10%;
+    min-height: 600px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.body_right {
+    background: #CDCDCD;
+    width: 10%;
+    min-height: 600px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 70%;
+    height: 50px;
+    margin: 20px;
+}
+
+.body_between {
+    color: black;
+    width: 80%;
+    min-height: 400px;
+    float: left;
+    text-align: left;
+}
+
+footer {
+    font-family: "Times New Roman";
+    width: 100%;
+    height: 80px;
+    margin: 600px;
+    margin-left: 0;
+    background-color: #555555;
+    color:white;
+    border: 1px solid #CDCDCD;
+    text-align: center;
+}
